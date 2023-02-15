@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1>Job Application
+        <span>(Web)</span></h1>
+        <form>
+          <div class="form_container">
+            <div class="form_controller">
+              <label for="fname">First Name</label>
+              <input id="fname" type="text" name="fname">
+            </div>
+            <div class="form_controller">
+              <label for="lname">Last Name</label>
+            <input id="lname" type="text" name="lname">
+            </div>
+            <div class="form_controller"><label for="email">Email</label>
+              <input id="email" type="text" name="email">
+            </div>
+            <div class="form_controller">
+              <label for="role">Job Role</label>
+            <select id="role" name="role">
+              <option value="">Select Job Role</option>
+              <option value="frontend">frontend</option>
+              <option value="backend">backend</option>
+              <option value="fullstack">fullstack</option>
+            </select>
+            </div>
+            <div class="text_controller">
+              <label for="address">Address</label>
+              <textarea name="address" id="address" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form_controller">
+              <label for="city">City</label>
+              <input id="city" name="city" type="text">
+            </div>
+            <div class="form_controller">
+              <label for="pincode">Pincode</label>
+              <input id="pincode" type="text" name="pincode">
+            </div>
+            <div class="form_controller">
+              <label for="sdate">Start Date</label>
+              <input id="sdate" name="start_date" type="date">
+            </div>
+            <div class="form_controller">
+              <label for="upload">Upload Your Cv</label>
+              <input id="upload" placeholder="Choose file" name="file" type="file">
+            </div>
+          </div>
+          <div class="buttom_container">
+            <button type="submit">Apply</button>
+          </div>
+        </form>
+      </div>
+  </div>
+</body>
+</html>

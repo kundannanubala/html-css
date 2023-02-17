@@ -59,3 +59,14 @@ html,body{
     background-color: #282e34;
     color: #ddd;
 }
+.textBg:hover{
+    border: 3px solid red;
+    border-radius: 30px;
+}
+.border-button {
+    outline:  solid 0px #FC5185;
+    transition: outline 0.1s ease-in;
+    margin: 0.5em; /* Increased margin since the outline expands outside the element */
+  }
+  
+  .border-button:hover { outline-width: 50px; }
